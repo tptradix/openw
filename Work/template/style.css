@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.form_tl {
+    border-radius: 20px;
+    padding: 0px;
+    margin: 10px;
+    background-color: #f7f9fb;
+}
+
+.head_view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #F1F5FA;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0px 1.5px 0px 0px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+h2 {
+    font-family: Ubuntu;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ui_img {
+    border-radius: 50px;
+}
+
+h3 {
+    font-family: Lato;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom_view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #F1F5FA;
+    padding: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+
+}
+
+.separate {
+    background: #707579; 
+    width: 1px;
+    height: 45px;
+    opacity: .5;
+    margin: 10px;
+}
+
+.history_ml {
+    margin-top: 10px;
+    padding: 0px;
+    background-color: #F1F5FA;
+    border-radius: 20px;
+}
+
+button {
+    border: 0;
+    font-family: Ubuntu;
+    font-size: 17px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 49%;
+    padding: 5px;
+}
+
+.scroll_ev {
+    background-color: #f7f9fb;
+    padding-top: 10px;
+    height: 350px;
+}
+
+.other_v {
+    background-color: #F1F5FA;
+    padding: 8px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+
+}
+
+p {
+    font-family: Lato;
+    margin: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Lato;
+    font-size: 23px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.c_form {
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    margin-top: 20px;
+    align-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+input {
+    border: 0;
+    border-bottom: 2px solid #707579;
+    border-radius: 0px;
+    font-family: Ramabhadra;
+    font-size: 29px;
+    width: 200px;
+    height: 40px;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #3390EC;
+}
+
+.cp_pay {
+    bottom: 0;
+    padding: 7px;
+    width: 100%;
+    border: 0;
+    background-color: #707579;
+    font-family: Lato;
+    font-size: 21px;
+    color: #FFFFFF;
+    margin-top: 0px;
+    border-radius: 0px;
+}
