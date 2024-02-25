@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    color: #e6e6e6;
 }
 
 * {
@@ -106,7 +105,7 @@ ul {
     align-items: center;
     counter-reset: li;
     padding: 0px;
-    background: #000000;
+    background: #f4f4f5;
 }
 
 li {
@@ -117,6 +116,7 @@ li {
     justify-content: center;
     background-color: #FFFFFF;
     border-radius: 10px;
+    padding-bottom: 0px;
 
 }
 
