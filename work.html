@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ramabhadra&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Spice&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Monoton&family=Paytone+One&family=Poppins&family=Ramabhadra&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="render.css">
     <link rel="stylesheet" href="window.css">
 </head>
 <body>
@@ -19,35 +19,181 @@
         <div>
             <header>
                 <div class="scroll_opt">
-                    <select class="vacancy">
-                        <option>Work</option>
-                        <option>Design</option>
-                        <option>Advancement</option>
-                        <option>Edit</option>
-                        <option>Creative</option>
-                        <option>Development</option>
-                        <option>Other</option>
-                    </select>
-                    <select class="vacancy">
-                        <option>Pace</option>
-                        <option>Low</option>
-                        <option>Medium</option>
-                        <option>Hard</option>
-                        <option>Professional</option>
-                        <option>Teamwork</option>
-                        <option>Other</option>
-                    </select>
-                    <select class="vacancy">
-                        <option>Choose</option>
-                        <option>By reviews</option>
-                        <option>By verified</option>
-                        <option>By price</option>
-                        <option>By optional</option>
-                        <option>By rate</option>
-                        <option>Other</option>
-                    </select>
+                    <div class="select" tabindex="1">
+                        <input class="selectopt" name="test" type="radio" id="opt1" checked>
+                        <label for="opt1" class="option">All</label>
+                        <input class="selectopt" name="test" type="radio" id="opt2">
+                        <label for="opt2" class="option">Design</label>
+                        <input class="selectopt" name="test" type="radio" id="opt3">
+                        <label for="opt3" class="option">Ads</label>
+                        <input class="selectopt" name="test" type="radio" id="opt4">
+                        <label for="opt4" class="option">Edit</label>
+                        <input class="selectopt" name="test" type="radio" id="opt5">
+                        <label for="opt5" class="option">Creative</label>
+                        <input class="selectopt" name="test" type="radio" id="opt6">
+                        <label for="opt6" class="option">Dev</label>
+                    </div>
+                    <div class="select" tabindex="2">
+                        <input class="selectopt" name="test2" type="radio" id="opt7" checked>
+                        <label for="opt7" class="option">All</label>
+                        <input class="selectopt" name="test2" type="radio" id="opt8">
+                        <label for="opt8" class="option">Low</label>
+                        <input class="selectopt" name="test2" type="radio" id="opt9">
+                        <label for="opt9" class="option">Medium</label>
+                        <input class="selectopt" name="test2" type="radio" id="opt10">
+                        <label for="opt10" class="option">Hard</label>
+                        <input class="selectopt" name="test2" type="radio" id="opt11">
+                        <label for="opt11" class="option">Pro</label>
+                        <input class="selectopt" name="test2" type="radio" id="opt12">
+                        <label for="opt12" class="option">Team</label>
+                    </div>
+                    <div class="select" tabindex="3">
+                        <input class="selectopt" name="test3" type="radio" id="opt13" checked>
+                        <label for="opt13" class="option">All</label>
+                        <input class="selectopt" name="test3" type="radio" id="opt14">
+                        <label for="opt14" class="option">Verify</label>
+                        <input class="selectopt" name="test3" type="radio" id="opt15">
+                        <label for="opt15" class="option">Rank</label>
                 </div>
             </header>
+        </div>
+        <div>
+            <div style="background-color: #FFFFFF; width: 100%;">
+                <ul>
+                    <li>
+                        <div class="head_ad">
+                            <div style="display: grid; text-align: left; padding-right: 20px;">
+                                <span class="tab_1">100.20$</span>
+                                <span class="tab_2">12.03.2024</span>
+                            </div>
+                            <div style="display: flex; align-items: center;">
+                                <div class="like">
+                                    <img width="30px" height="30px" src="img/liked.png">
+                                </div>
+                                <div class="share">
+                                    <img width="30px" height="30px" src="img/share.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main_v">
+                            <div style="display: grid; align-items: center; justify-content: space-between; margin-top: 10px">
+                                <div style="display: flex; align-items: center; width: 100%; justify-content: space-between;">
+                                    <div style="display: flex; align-items: center; width: 50vw;">
+                                        <img style="border-radius: 50px;" width="25px" height="25px" src="img/person.png">
+                                        <span class="person">Clever Owl</span>
+                                    </div>
+                                    <div style="display: flex; align-items: center; justify-content: center;">
+                                        <span class="rank">Total rank: <b>3</b></span>
+                                    </div>
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: space-between;">
+                                    <p class="inf_as">Vacancy</p>
+                                    <p class="inf_as">Design</p>
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: space-between;">
+                                    <p class="inf_as">Pace</p>
+                                    <p class="inf_as">Pro</p>
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: space-between;">
+                                    <p class="inf_as">Type</p>
+                                    <p class="inf_as">Basic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 100%; margin-top: 10px;">
+                            <button>Respond</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="head_ad">
+                            <div style="display: grid; text-align: left; padding-right: 20px;">
+                                <span class="tab_1">16.42$</span>
+                                <span class="tab_2">10.03.2024</span>
+                            </div>
+                            <div style="display: flex; align-items: center;">
+                                <div class="like">
+                                    <img width="30px" height="30px" src="img/like.png">
+                                </div>
+                                <div class="share">
+                                    <img width="30px" height="30px" src="img/share.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main_v">
+                            <div style="display: grid; align-items: center; justify-content: space-between; margin-top: 10px">
+                                <div style="display: flex; align-items: center; width: 100%; justify-content: space-between;">
+                                    <div style="display: flex; align-items: center; width: 50vw;">
+                                        <img style="border-radius: 50px;" width="25px" height="25px" src="img/person.png">
+                                        <span class="person">Speed Dog</span>
+                                    </div>
+                                    <div style="display: flex; align-items: center; justify-content: center;">
+                                        <span class="rank">Total rank: <b>3.5</b></span>
+                                    </div>
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: space-between;">
+                                    <p class="inf_as">Vacancy</p>
+                                    <p class="inf_as">Ads</p>
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: space-between;">
+                                    <p class="inf_as">Pace</p>
+                                    <p class="inf_as">Low</p>
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: space-between;">
+                                    <p class="inf_as">Type</p>
+                                    <p class="inf_as">Verify</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 100%; margin-top: 10px;">
+                            <button>Respond</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="head_ad">
+                            <div style="display: grid; text-align: left; padding-right: 20px;">
+                                <span class="tab_1">580.00$</span>
+                                <span class="tab_2">10.03.2024</span>
+                            </div>
+                            <div style="display: flex; align-items: center;">
+                                <div class="like">
+                                    <img width="30px" height="30px" src="img/like.png">
+                                </div>
+                                <div class="share">
+                                    <img width="30px" height="30px" src="img/share.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main_v">
+                            <div style="display: grid; align-items: center; justify-content: space-between; margin-top: 10px">
+                                <div style="display: flex; align-items: center; width: 100%; justify-content: space-between;">
+                                    <div style="display: flex; align-items: center; width: 50vw;">
+                                        <img style="border-radius: 50px;" width="25px" height="25px" src="img/person.png">
+                                        <span class="person">Small Cat</span>
+                                    </div>
+                                    <div style="display: flex; align-items: center; justify-content: center;">
+                                        <span class="rank">Total rank: <b>4</b></span>
+                                    </div>
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: space-between;">
+                                    <p class="inf_as">Vacancy</p>
+                                    <p class="inf_as">Dev</p>
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: space-between;">
+                                    <p class="inf_as">Pace</p>
+                                    <p class="inf_as">Team</p>
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: space-between;">
+                                    <p class="inf_as">Type</p>
+                                    <p class="inf_as">Verify</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 100%; margin-top: 10px;">
+                            <button>Respond</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
