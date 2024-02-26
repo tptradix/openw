@@ -90,10 +90,10 @@ input:checked + label {
 .head_ad {
     display: flex;
     justify-content: space-between;
-    width: 90vw;
+    width: 100vw;
     padding-left: 20px;
     padding-right: 20px;
-    border-bottom: 0.8px solid #707579;
+    border-bottom: 0.5px solid #707579;
 }
 
 ul {
@@ -111,17 +111,18 @@ ul {
 li {
     display: grid;
     margin-top: 10px;
-    padding: 5px;
-    width: 90vw;
+    padding-top: 5px;
+    width: 100vw;
     justify-content: center;
     background-color: #FFFFFF;
-    border-radius: 10px;
-    padding-bottom: 0px;
+    border-radius: 0px;
+    padding-bottom: 5px;
+    box-shadow: 0px 1.5px 0px 0px rgba(0, 0, 0, 0.1);
 
 }
 
 .tab_1 {
-    font-family: Poppins;
+    font-family: Roboto, system-ui, sans-serif;
     font-size: 25px;
     margin-bottom: 5px;
 }
@@ -135,7 +136,7 @@ li {
 
 .like {
     display: flex;
-    background: #58C3F5;
+    background: #d2d2d2;
     border-radius: 5px;
     width: 30px;
     height: 30px;
@@ -147,15 +148,16 @@ li {
     display: flex;
     background: #58C3F5;
     border-radius: 5px;
-    width: 30px;
+    width: 50px;
     height: 30px;
     justify-content: center;
+    align-items: center;
     margin: 5px;
 }
 
 .main_v {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -190,4 +192,25 @@ button {
     font-size: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.ld_wp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.main {
+    display: none;
+}
+
+.acpt_w {
+    font-family: Ubuntu;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
 }
