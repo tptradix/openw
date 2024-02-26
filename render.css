@@ -7,6 +7,11 @@ body {
     box-sizing: border-box;
 }
 
+i {
+    font-family: Ubuntu;
+    font-style: normal;
+    color: #707579;
+}
 
 .scroll_opt {
     display: flex;
@@ -37,10 +42,11 @@ body {
     width: 80px;
     height: 42px;
     border-radius: 5px;
-    font-family: Ubuntu;
+    font-family: Roboto, system-ui, sans-serif;
     margin: 5px;
     text-align: center;
     font-size: 15px;
+    font-weight: 500;
 }
   
 .option {
@@ -52,8 +58,9 @@ body {
     top: 0;
     width: 100%;
     pointer-events: none;
-    border-radius: 5px;
-    margin-top: 2px;
+    border-radius: 0px;
+    border-bottom: 1.5px solid #F1F5FA;
+
 
 }
 
@@ -83,7 +90,7 @@ input:checked + label {
     position:relative;
     text-align: center;
     border-radius: 5px;
-    border: 2px solid #707579;
+    border: 1.5px solid #707579;
 }
 
 
@@ -129,16 +136,16 @@ li {
 }
 
 .tab_2 {
-    font-family: Ubuntu;
+    font-family: Roboto, system-ui, sans-serif;
     font-size: 13px;
     color: #707579;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .like {
     display: flex;
     background: #d2d2d2;
-    border-radius: 5px;
+    border-radius: 50px;
     width: 30px;
     height: 30px;
     justify-content: center;
@@ -154,6 +161,7 @@ li {
     justify-content: center;
     align-items: center;
     margin: 5px;
+    margin-right: 0px;
 }
 
 .main_v {
