@@ -11,117 +11,120 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ramabhadra&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Spice&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Monoton&family=Paytone+One&family=Poppins&family=Ramabhadra&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="profile.css">
+	<link rel="stylesheet" href="ads.css">
 </head>
 <body>
     <div class="main">
-        <div style="margin-top: 15px;">
-            <div style="display: flex; padding-left: 15px; padding-right: 15px; justify-content: space-between;">
-                <h1>Publish an Ad</h1>
-            </div>
-            <div class="step1">
-                <div style="display: grid; align-items: center; padding-top: 5px;">
-                    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 0.5px solid #c2c2c2; padding-bottom: 5px;">
-                        <p>Vacancy</p>
-                        <div class="scroll_opt">
-                            <div class="select s1" tabindex="1">
-                                <input class="selectopt" name="test" type="radio" id="opt1" checked>
-                                <label for="opt1" class="option">All</label>
-                                <input class="selectopt" name="test" type="radio" id="opt2">
-                                <label for="opt2" class="option">Design</label>
-                                <input class="selectopt" name="test" type="radio" id="opt3">
-                                <label for="opt3" class="option">Ads</label>
-                                <input class="selectopt" name="test" type="radio" id="opt4">
-                                <label for="opt4" class="option">Edit</label>
-                                <input class="selectopt" name="test" type="radio" id="opt5">
-                                <label for="opt5" class="option">Creative</label>
-                                <input class="selectopt" name="test" type="radio" id="opt6">
-                                <label for="opt6" class="option">Dev</label>
-                            </div>
-                        </div>
-                    </div>
+        <form type="POST" name="ad" id="ad">
+            <div style="margin-top: 15px;">
+                <div style="display: flex; padding-left: 15px; padding-right: 15px; justify-content: space-between;">
+                    <h1>Publish an Ad</h1>
+                </div>
+                <div class="step1">
                     <div style="display: grid; align-items: center; padding-top: 5px;">
                         <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 0.5px solid #c2c2c2; padding-bottom: 5px;">
-                            <p>Pace</p>
+                            <p>Vacancy</p>
                             <div class="scroll_opt">
-                                <div class="select s2" tabindex="2">
-                                    <input class="selectopt" name="test2" type="radio" id="opt7" checked>
-                                    <label for="opt7" class="option">All</label>
-                                    <input class="selectopt" name="test2" type="radio" id="opt8">
-                                    <label for="opt8" class="option">Low</label>
-                                    <input class="selectopt" name="test2" type="radio" id="opt9">
-                                    <label for="opt9" class="option">Medium</label>
-                                    <input class="selectopt" name="test2" type="radio" id="opt10">
-                                    <label for="opt10" class="option">Hard</label>
-                                    <input class="selectopt" name="test2" type="radio" id="opt11">
-                                    <label for="opt11" class="option">Pro</label>
-                                    <input class="selectopt" name="test2" type="radio" id="opt12">
-                                    <label for="opt12" class="option">Team</label>
+                                <div class="select s1" tabindex="1">
+                                    <input class="selectopt" name="test" type="radio" id="opt1" checked>
+                                    <label for="opt1" class="option">All</label>
+                                    <input class="selectopt" name="test" type="radio" id="opt2">
+                                    <label for="opt2" class="option">Design</label>
+                                    <input class="selectopt" name="test" type="radio" id="opt3">
+                                    <label for="opt3" class="option">Ads</label>
+                                    <input class="selectopt" name="test" type="radio" id="opt4">
+                                    <label for="opt4" class="option">Edit</label>
+                                    <input class="selectopt" name="test" type="radio" id="opt5">
+                                    <label for="opt5" class="option">Creative</label>
+                                    <input class="selectopt" name="test" type="radio" id="opt6">
+                                    <label for="opt6" class="option">Dev</label>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div style="display: grid; align-items: center; padding-top: 5px;">
-                        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 0.5px solid #c2c2c2; padding-bottom: 5px;">
-                            <p>Type</p>
-                            <div class="scroll_opt">
-                                <div class="select s3" tabindex="3">
-                                    <input class="selectopt" name="test3" type="radio" id="opt13" checked>
-                                    <label for="opt13" class="option">All</label>
-                                    <input class="selectopt" name="test3" type="radio" id="opt14">
-                                    <label for="opt14" class="option">Verify</label>
-                                    <input class="selectopt" name="test3" type="radio" id="opt15">
-                                    <label for="opt15" class="option">Basic</label>
+                        <div style="display: grid; align-items: center; padding-top: 5px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 0.5px solid #c2c2c2; padding-bottom: 5px;">
+                                <p>Pace</p>
+                                <div class="scroll_opt">
+                                    <div class="select s2" tabindex="2">
+                                        <input class="selectopt" name="test2" type="radio" id="opt7" checked>
+                                        <label for="opt7" class="option">All</label>
+                                        <input class="selectopt" name="test2" type="radio" id="opt8">
+                                        <label for="opt8" class="option">Low</label>
+                                        <input class="selectopt" name="test2" type="radio" id="opt9">
+                                        <label for="opt9" class="option">Medium</label>
+                                        <input class="selectopt" name="test2" type="radio" id="opt10">
+                                        <label for="opt10" class="option">Hard</label>
+                                        <input class="selectopt" name="test2" type="radio" id="opt11">
+                                        <label for="opt11" class="option">Pro</label>
+                                        <input class="selectopt" name="test2" type="radio" id="opt12">
+                                        <label for="opt12" class="option">Team</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div style="display: grid; align-items: center; padding-top: 5px;">
-                        <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 5px;">
-                            <p>Rank</p>
-                            <div class="scroll_opt">
-                                <div class="select s4" tabindex="4">
-                                    <input class="selectopt" name="test4" type="radio" id="opt16" checked>
-                                    <label for="opt16" class="option">All</label>
-                                    <input class="selectopt" name="test4" type="radio" id="opt17">
-                                    <label for="opt17" class="option">1</label>
-                                    <input class="selectopt" name="test4" type="radio" id="opt18">
-                                    <label for="opt18" class="option">2</label>
-                                    <input class="selectopt" name="test4" type="radio" id="opt19">
-                                    <label for="opt19" class="option">3</label>
-                                    <input class="selectopt" name="test4" type="radio" id="opt20">
-                                    <label for="opt20" class="option">4</label>
-                                    <input class="selectopt" name="test4" type="radio" id="opt21">
-                                    <label for="opt21" class="option">5</label>
+                        <div style="display: grid; align-items: center; padding-top: 5px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 0.5px solid #c2c2c2; padding-bottom: 5px;">
+                                <p>Type</p>
+                                <div class="scroll_opt">
+                                    <div class="select s3" tabindex="3">
+                                        <input class="selectopt" name="test3" type="radio" id="opt13" checked>
+                                        <label for="opt13" class="option">All</label>
+                                        <input class="selectopt" name="test3" type="radio" id="opt14">
+                                        <label for="opt14" class="option">Verify</label>
+                                        <input class="selectopt" name="test3" type="radio" id="opt15">
+                                        <label for="opt15" class="option">Basic</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: grid; align-items: center; padding-top: 5px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 5px;">
+                                <p>Rank</p>
+                                <div class="scroll_opt">
+                                    <div class="select s4" tabindex="4">
+                                        <input class="selectopt" name="test4" type="radio" id="opt16" checked>
+                                        <label for="opt16" class="option">All</label>
+                                        <input class="selectopt" name="test4" type="radio" id="opt17">
+                                        <label for="opt17" class="option">1</label>
+                                        <input class="selectopt" name="test4" type="radio" id="opt18">
+                                        <label for="opt18" class="option">2</label>
+                                        <input class="selectopt" name="test4" type="radio" id="opt19">
+                                        <label for="opt19" class="option">3</label>
+                                        <input class="selectopt" name="test4" type="radio" id="opt20">
+                                        <label for="opt20" class="option">4</label>
+                                        <input class="selectopt" name="test4" type="radio" id="opt21">
+                                        <label for="opt21" class="option">5</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="step2">
-                <div style="display: grid; align-items: center; padding-top: 5px; width: 100%;">
-                    <div style="display: grid; justify-content: space-between; align-items: center; padding-bottom: 5px; width: 100%;">
-                        <p style="color: #3390EC; font-weight: 500; width: 90vw;">Reward for work</p>
-                        <input style="height: 7vh;" class="rew" type="number" id="rew" name="rew" placeholder="Amount in USDT">
+                <div class="step2">
+                    <div style="display: grid; align-items: center; padding-top: 5px; width: 100%;">
+                        <div style="display: grid; justify-content: space-between; align-items: center; padding-bottom: 5px; width: 100%;">
+                            <p style="color: #3390EC; font-weight: 500; width: 90vw; padding-top: 5px;">Reward for work</p>
+                            <input style="height: 7vh;" class="rew" type="number" id="rew" name="rew" placeholder="Amount in USDT">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div style="display: flex; margin-top: 5px; padding-left: 15px;">
-                <span><b style="color: #707579;">Stable reward</b>, will increanse the chance of a response</span>
-            </div>
-            <div class="step2">
-                <div style="display: grid; align-items: center; padding-top: 5px; width: 100%;">
-                    <div style="display: grid; justify-content: space-between; align-items: center; padding-bottom: 5px; width: 100%;">
-                        <p style="color: #3390EC; font-weight: 500; width: 90vw;">Description</p>
-                        <input style="height: 7vh;" class="rew" type="text" id="des" name="des" placeholder="Text...">
+                <div style="display: flex; margin-top: 10px; padding-left: 15px;">
+                    <span><b style="color: #707579;">Stable reward</b>, will increanse the chance of a response</span>
+                </div>
+                <div class="step2">
+                    <div style="display: grid; align-items: center; padding-top: 5px; width: 100%;">
+                        <div style="display: grid; justify-content: space-between; align-items: center; padding-bottom: 5px; width: 100%;">
+                            <p style="color: #3390EC; font-weight: 500; width: 90vw; padding-top: 5px;">Description</p>
+                            <input style="height: 7vh;" class="rew" type="text" id="des" name="des" placeholder="Text...">
+                        </div>
                     </div>
                 </div>
+                <div style="display: grid; justify-content: center; align-items: center; height: 20vh;">
+                    <img width="70px" height="70px" src="https://em-content.zobj.net/source/telegram/386/briefcase_1f4bc.webp">
+                </div>
+                <button>Confirm</button>
             </div>
-            <div style="display: grid; justify-content: center; align-items: center; height: 20vh;">
-                <img width="70px" height="70px" src="https://em-content.zobj.net/source/telegram/386/briefcase_1f4bc.webp">
-            </div>
-        </div>
+        </form>
     </div>
 </body>
 </html>
