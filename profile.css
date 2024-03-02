@@ -174,3 +174,14 @@ input:checked + label {
 
 }
 
+button {
+    background: #767676;
+    width: 100vw;
+    height: 40px;
+    border: 0;
+    color: #FFFFFF;
+    font-family: Roboto, system-ui, sans-serif;
+    font-size: 19px;
+    position: fixed;
+    bottom: 0;
+}
