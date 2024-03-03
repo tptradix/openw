@@ -71,7 +71,8 @@ p {
     text-align: right;
     font-size: 15px;
     font-weight: 500;
-    color: #3390EC;
+    color: #767676;
+    
 }
 
 .s1 {
@@ -119,7 +120,7 @@ span {
     padding: 8px;
     display: grid;
     align-items: center;
-    background: #FFFFFF;
+    background-color: #F1F5FA;
     position: absolute;
     top: 0;
     width: 100%;
@@ -131,12 +132,13 @@ span {
 }
 
 .option:hover {
-    background:#FFFFFF;
+    background: #FFFFFF;
   }
   
 .select:focus .option {
     position:relative;
     pointer-events:all;
+    border-bottom: 1px solid #c9c3c3;
     opacity: 0;
     animation: fadeIn ease-in 1;
     animation-fill-mode: forwards;
@@ -171,6 +173,7 @@ input:checked + label {
     border-radius: 5px;
     border-bottom: 1.5px solid #FFFFFF;
     border-top: 1.5px solid #FFFFFF;
+    color: #3390EC;
 
 }
 
